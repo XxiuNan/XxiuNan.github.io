@@ -1,3 +1,3 @@
-var posts=["2025/03/20/高数/高数/","2025/03/20/数据结构/数据结构/"];function toRandomPost(){
+var posts=["2025/03/20/高数/高数/","2025/03/20/数据结构/数据结构/","2025/08/04/操作系统/第三章 内存管理/","2025/07/27/操作系统/第二章 进程与线程/","2025/03/29/计算机组成原理/计算机组成原理/"];function toRandomPost(){
     pjax.loadUrl('/'+posts[Math.floor(Math.random() * posts.length)]);
   };
